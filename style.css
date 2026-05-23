@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial;
+    background:#87CEEB;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.weather-box{
+    background:white;
+    padding:40px;
+    width:350px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    font-size:16px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+    background:#007bff;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.weather-info{
+    margin-top:20px;
+}
